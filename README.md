@@ -9,7 +9,7 @@ This API classifies numbers based on their mathematical properties.
 
 ## 🚀 Usage
 Send a GET request to:  
-https://your-api-url.com/api/classify-number?number=371
+https://number-classification-api-95qd.onrender.com/api/classify-number?number=371
 
 ## ⚙️ Tech Stack
 - Python 🐍
