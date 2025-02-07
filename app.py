@@ -21,9 +21,9 @@ def is_perfect(n):
 
 # Function to check if a number is an Armstrong number
 def is_armstrong(n):
-    if n < 0:  # Only negatives are NOT Armstrong numbers
+    if n == 0:  # Ensure 0 is NOT classified as Armstrong
         return False
-    digits = [int(d) for d in str(abs(int(n)))]  
+    digits = [int(d) for d in str(abs(int(n)))]
     power = len(digits)
     return sum(d ** power for d in digits) == abs(int(n))
 
